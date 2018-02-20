@@ -3,34 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.example.com/header/</loc>
+    <loc>https://reidtissing.github.io/header/</loc>
   </url>
   
   <url>
-    <loc>https://www.example.com/posts/my-first-post/</loc>
+    <loc>https://reidtissing.github.io/posts/my-first-post/</loc>
   </url>
   
   <url>
-    <loc>https://www.example.com/services/</loc>
+    <loc>https://reidtissing.github.io/services/</loc>
   </url>
   
   <url>
-    <loc>https://www.example.com/categories/</loc>
+    <loc>https://reidtissing.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/posts/</loc>
+    <loc>https://reidtissing.github.io/posts/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/</loc>
+    <loc>https://reidtissing.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/</loc>
+    <loc>https://reidtissing.github.io/</loc>
     <priority>0</priority>
   </url>
   
