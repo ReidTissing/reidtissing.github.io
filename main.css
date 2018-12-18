@@ -43,8 +43,8 @@ p {
 	  	font-size: 72px;
 	  	font-weight: 120px;
 	  	font-style: bold;
-	  	   -webkit-text-stroke-width: .1px;
-   -webkit-text-stroke-color: black;
+	  	-webkit-text-stroke-width: .1px;
+   		-webkit-text-stroke-color: black;
 }
   #overlay2 {
   position: absolute; 
