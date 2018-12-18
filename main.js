@@ -6,6 +6,7 @@ var TxtRotate = function(el, toRotate, period) {
   this.txt = '';
   this.tick();
   this.isDeleting = false;
+  MoveHim();
 };
 
 TxtRotate.prototype.tick = function() {
@@ -32,6 +33,7 @@ TxtRotate.prototype.tick = function() {
     this.isDeleting = false;
     this.loopNum++;
     delta = 500;
+  MoveHim();
   }
 
   setTimeout(function() {
@@ -46,6 +48,7 @@ window.onload = function() {
     var period = elements[i].getAttribute('data-period');
     if (toRotate) {
       new TxtRotate(elements[i], JSON.parse(toRotate), period);
+
     }
   }
   // INJECT CSS
@@ -53,4 +56,23 @@ window.onload = function() {
   css.type = "text/css";
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
-}; 
+  MoveHim();
+
+};
+
+function MoveHim() {
+   
+var elem = document.getElementById("overlay2");   
+  var pos = Math.random() * 100;
+  console.log(pos)
+  // var delta = 300 - Math.random() * 100;
+  // var id = setInterval(frame, 5);
+  // function frame() {
+    // if (pos == 350) {
+    //   clearInterval(id);
+    // } else {
+    //   pos++; 
+      elem.style.padding = pos * 2 + "px"; 
+      elem.style.left = pos + "px"; 
+    // }
+ };
