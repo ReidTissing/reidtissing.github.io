@@ -11,7 +11,7 @@ body {
 body {
 	padding: 0;
 	background-size: cover;
-	background-color: black;
+	/*background-color: black;*/
 }
 
 html, body { padding: 0px;
@@ -30,7 +30,7 @@ margin: 0px;
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.8)
     );
-  z-index: 2147483647;
+  z-index: 2;
 }
 
 #bgvid {
@@ -39,13 +39,13 @@ margin: 0px;
 
 p {
 	  	font-family: 'Major Mono Display', monospace;
-	  	color: #ffffff;
+	  	color: rgba(255,255,255,.5);
 	  	font-size: 72px;
 	  	font-weight: 120px;
 	  	font-style: bold;
-	  	opacity: 100;
+	  	opacity: 100;/*
 	  	-webkit-text-stroke-width: .3px;
-   		-webkit-text-stroke-color: white;
+   		-webkit-text-stroke-color: white;*/
    		z-index: 90;
 }
   #overlay2 {
@@ -55,6 +55,6 @@ p {
   left: 100px;
   width: 640px;
   padding: 10px 0;
-  z-index: 88;
-  color: red;
+  z-index: 500;
+  /*color: blue;*/
 }
