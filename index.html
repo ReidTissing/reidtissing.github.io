@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -19,6 +20,12 @@
   z-index: 10;
   background-color:rgba(153,204,255,0.1);
 
+
+}
+.question {
+  font-family: "Helvetica";
+  font-style: monospace;
+  color: "red";
 }
 
 </style>
@@ -44,7 +51,7 @@
      data-period="2000"
      data-rotate='[ "wAiting for?", "doing?", "wAsting time on?", "so busy with?", "so afrAid of?" ]'></span></div>
   <canvas class="canvas" id="cv1"></canvas>
-</div>
+</div>?
 <script>
 
 function resize_canvas(element)
@@ -57,5 +64,6 @@ function resize_canvas(element)
 }
 </script>
 <script src="main.js"></script>
+
 <!-- <script src="canvas2.js"></script> -->
  </html>
