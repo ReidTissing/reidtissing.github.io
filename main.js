@@ -49,6 +49,7 @@ function Rectangle(x, y, drawwidth, drawheight) {
       fillColor = 'rgba(0,0,0,0.1)';
     }
     this.draw = function() {
+      c.fillStyle = fillColor;
         //c.fillStyle = "black";
         // console.log("drawing this height: " + this.drawheight);
         // console.log("drawing this width: " + this.drawwidth);
