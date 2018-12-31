@@ -131,6 +131,7 @@ window.addEventListener('mouseup', function(event) {
 TxtRotate.prototype.tick = function() {
     var i = this.loopNum % this.toRotate.length;
     var fullTxt = this.toRotate[i];
+    // fullTxt = fullTxt + "<h1>?</h1>";
 
     if (this.isDeleting) {
         this.txt = fullTxt.substring(0, this.txt.length - 1);
