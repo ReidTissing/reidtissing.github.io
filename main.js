@@ -1,3 +1,27 @@
+
+var canvas2 = document.getElementById("cv2");
+var ctx = canvas2.getContext("2d");
+var scaleX = window.innerWidth / canvas2.width;
+var scaleY = window.innerHeight / canvas2.height;
+
+var scaleToFit = Math.min(scaleX, scaleY);
+var scaleToCover = Math.max(scaleX, scaleY);
+canvas2.width = window.innerWidth;
+canvas2.height = (window.innerHeight / 20);
+
+ctx.font = "12px verdana";
+ctx.fillStyle = 'rgba(255,255,255,0.5)';
+ctx.fillText("press a key", scaleX,scaleY);
+
+
+
+
+// resize handler
+window.addEventListener('resize', function(){ 
+  resize();
+  displayText();
+}, false)
+
 var TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
