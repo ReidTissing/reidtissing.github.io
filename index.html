@@ -10,18 +10,31 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 	<link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="main.css">
-	<title>don't ignore me, dean</title>
+	<title>rtissing - ?</title>
 	<style>
   .canvas {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 10;
+  z-index: 1;
   background-color:rgba(153,204,255,0.1);
 
 
 }
+  .canvas2 {
+  letter-spacing: 0.5em; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  font-family: 'verdana', sans-serif;
+  background-color:rgba(153,204,255,0.15);
+
+
+}
+
 .question {
   font-family: "Helvetica";
   font-style: monospace;
@@ -29,7 +42,14 @@
 }
 
 </style>
-
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ['Montserrat']
+    }
+  });
+</script>
 </head>
 <body>
 	<header>
@@ -51,6 +71,7 @@
      data-period="2000"
      data-rotate='[ "wAiting for?", "doing?", "wAsting time on?", "so busy with?", "so afrAid of?" ]'></span></div>
   <canvas class="canvas" id="cv1"></canvas>
+  <canvas class="canvas2" width="1000" height="30" id="cv2"></canvas>
 </div>?
 <script>
 
@@ -80,5 +101,6 @@ document.location = "index2.html";
 }
 //-->
 </script>
+
 <!-- <script src="canvas2.js"></script> -->
  </html>
