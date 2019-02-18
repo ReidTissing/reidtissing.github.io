@@ -14,14 +14,6 @@ ctx.fillStyle = 'rgba(255,255,255,0.5)';
 ctx.fillText("press a key", scaleX,scaleY);
 
 
-
-
-// resize handler
-window.addEventListener('resize', function(){ 
-  resize();
-  displayText();
-}, false)
-
 var TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
