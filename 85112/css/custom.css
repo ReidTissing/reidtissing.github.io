@@ -31,6 +31,12 @@ font-weight: 100 !important;
 letter-spacing: .5rem;
 text-transform: uppercase;
 }
+#vidtitle {
+    font-family: 'Raleway', sans-serif !important;
+font-weight: 600 !important;
+letter-spacing: .2rem;
+text-transform: uppercase;
+}
 
 #author {
     font-style: italic;
